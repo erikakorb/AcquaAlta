@@ -1,4 +1,6 @@
 # cartelle e file da ignorare
+.gitignore
 /archivio/2019-11-12/foto/
 cosevecchie.py
+
 
