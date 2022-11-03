@@ -1,0 +1,32 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+
+\begin{document}
+	
+	
+	
+	\begin{tikzpicture}
+	\begin{axis}[
+	xmin=0, xmax=24,
+	%ymin=0.9,
+	xlabel={ora},
+	ylabel={altezza [$m$]},
+	title={Acqua alta},
+	%xtick=data,
+	%ytick=data,
+	%minor tick=data,
+	%minor tick={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24},
+	%minor x tick num=4,
+	%minor y tick num =1,
+	%grid=both,
+	legend pos=north west,
+	legend entries={acqua,vento}
+	]
+	
+\addplot [only marks, red,mark=*, mark size=0.5pt] table[x=ora,y=altezza] {12nov19.txt};
+\addplot [ blue,mark=*, mark size=0.5pt] table[x=ora,y=ventoMS] {12nov19.txt};
+
+	
+	\end{axis}
+	\end{tikzpicture}
+\end{document}
