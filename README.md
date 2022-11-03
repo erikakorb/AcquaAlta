@@ -14,7 +14,7 @@ Python script per visualizzare in tempo reale l'evoluzione della marea e il feno
 Per evitare eventi eccezionali e settimane come quella del 12 novembre 2019, il [3 ottobre 2020](https://www.mosevenezia.eu/prima-prova-del-mose-contro-lacqua-alta/ ) è entrato in funzione il sistema di paratie mobili MOSE. Da allora e sebbene ancora incompleto, il MOSE è stato azionato più volte per evitare che maree superiori ai 110 cm potessero verificarsi a Venezia. Le paratie del MOSE impediscono all'acqua del mare di entrare nella laguna di Venezia: il surplus di acqua accumulata per effetto del vento rimane confinato nell'Adriatico e la marea in laguna viene mantenuta all'incirca costante. 
 
 ### MOSE attivo
-Ad esempio, il 15 ottobre 2020 il MOSE è entrato in funzione per la seconda volta evitando un'altra potenziale marea eccezionale. I venti di 60 km/h provenienti da nord/nord-ovest hanno causato una marea di 130-140 cm nelle bocche di porto mentre la marea in laguna è rimasta stabile attorno ai 70 cm, con una differenza di circa 20 cm tra Venezia e Chioggia a causa dello spostamento d'acqua comunque presente all'interno della laguna stessa.
+Il 15 ottobre 2020 il MOSE è entrato in funzione per la seconda volta ed ha evitato un'altra potenziale marea eccezionale. I venti di 60 km/h provenienti da nord/nord-ovest hanno causato una marea di 130-140 cm nelle bocche di porto ma, nel mentre, la marea in laguna è rimasta stabile attorno ai 70 cm. La differenza di circa 20 cm tra Venezia e Chioggia è causata dello spostamento d'acqua comunque presente all'interno della laguna stessa in presenza di forte vento.
 
  ![plot](./archivio/2020-10-15/15ott2020_marea_finale.png) 
  
@@ -31,5 +31,5 @@ Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati ra
 - `Diga Nord Malamocco` (Malamocco), per monitorare la bocca di porto tra Lido e Pellestrina
 - `Diga Sud Chioggia` (Pellestrina), per monitorare la bocca di porto tra Pellestrina e Chioggia
 
-I dati delle stazioni di rilevamento e i relativi grafici per la giornata presa in esame vengono salvati nell'`archivio` nella cartella con la data corrispondente. Sono disponibili alcuni esempi generati con versioni antecedenti del codice. In particolare, la cartella `2019-11-12` è corredata di analisi aggiuntive viste alle maree eccezionali verificatesi quella settimana.
+I dati delle stazioni di rilevamento e i relativi grafici per la giornata presa in esame vengono salvati nell'`archivio` nella cartella con la data corrispondente. Sono disponibili alcuni esempi generati con versioni antecedenti del codice. In particolare, la cartella `2019-11-12` è corredata di analisi aggiuntive viste le maree eccezionali verificatesi quella settimana.
 
