@@ -6,7 +6,7 @@ Python script per visualizzare in tempo reale l'evoluzione della marea e il feno
 ## L'acqua granda del 12 novembre 2019
  Il [12 novembre 2019](http://www.ismar.cnr.it/file/news-e-eventi/Acqua_Granda_2019_v03.pdf ) la marea in centro storico a Venezia ha toccato i 189 cm sul livello del mare (rilevatore di Punta Salute). La marea è stata così alta perché i venti di 100 km/h (e raffiche di 110 km/h, come rilevato dalla piattaforma Acqua Alta in Adriatico) provenienti da sud-ovest ed un accentuato minimo barico locale si sono verificati in corrispondenza del picco della marea astronomica. 
  
- L' evento del 12 novembre è stato eccezionale ma si è inserito in una settimana di acque alte eccezionali. Ricordando che piano calpestabile di Venezia è alto indicativamente 100 cm sul medio mare, in 5 giorni vi sono stati 8 picchi di marea superiori ai 100 cm e 4 di essi hanno superato anche i 140 cm (eventi eccezionali).
+ L' evento del 12 novembre è stato eccezionale ma si è inserito in una settimana di acque alte eccezionali. Ricordando che [il piano calpestabile di Venezia si trova indicativamente a 100 cm sul medio mare](http://smu.insula.it/index.php@option=com_content&view=article&id=114&Itemid=81&lang=it.html), in 6 giorni vi sono stati 8 picchi di marea superiori ai 100 cm e 4 di essi hanno superato anche i 140 cm (eventi eccezionali).
  
  ![plot](./archivio/2019-11-12/storico.png) 
  
@@ -24,12 +24,12 @@ L'8 dicembre 2020 il MOSE non è stato attivato e la marea è stata eccezionale.
  ![plot](./archivio/2020-12-08/8dic2020_marea.png) 
 
 # Lo script Python
-Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati raccolti nelle 24 ore precedenti da alcune delle [stazioni meteorologiche usate dal Centro Maree del Comune di Venezia](https://www.comune.venezia.it/content/dati-dalle-stazioni-rilevamento)). Di default il programma analizza i dati sull'altezza della marea, velocità e direzione del vento dalle seguenti stazioni (tra parentesi è indicato il nome usato nei grafici):
+Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati raccolti nelle 24 ore precedenti da alcune delle [stazioni meteorologiche usate dal Centro Maree del Comune di Venezia](https://www.comune.venezia.it/content/dati-dalle-stazioni-rilevamento). Di default il programma analizza i dati sull'altezza della marea, velocità e direzione del vento dalle seguenti stazioni (tra parentesi è indicato il nome usato nei grafici):
 - `Punta Salute` (Venezia), come riferimento per la marea in centro storico a Venezia
 - `Chioggia città - Vigo` (Chioggia), come riferimento per la marea in centro storico a Chioggia
 - `Diga Sud Lido e Faro` (San Nicolò), per monitorare la bocca di porto tra Punta Sabbioni e Lido
 - `Diga Nord Malamocco` (Malamocco), per monitorare la bocca di porto tra Lido e Pellestrina
 - `Diga Sud Chioggia` (Pellestrina), per monitorare la bocca di porto tra Pellestrina e Chioggia
 
-I dati delle stazioni di rilevamento e i relativi grafici per la giornata presa in esame vengono salvati nell'archivio nella cartella con la data corrispondente. Sono disponibili alcuni esempi generati con versioni antecedenti del codice. In particolare, la cartella `2019-11-12` è corredata di analisi aggiuntive viste alle maree eccezionali verificatesi quella settimana.
+I dati delle stazioni di rilevamento e i relativi grafici per la giornata presa in esame vengono salvati nell'`archivio` nella cartella con la data corrispondente. Sono disponibili alcuni esempi generati con versioni antecedenti del codice. In particolare, la cartella `2019-11-12` è corredata di analisi aggiuntive viste alle maree eccezionali verificatesi quella settimana.
 
