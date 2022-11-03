@@ -19,17 +19,17 @@ Ad esempio, il 15 ottobre 2020 il MOSE è entrato in funzione per la seconda vol
  ![plot](./archivio/2020-10-15/15ott2020_marea_finale.png) 
  
 ### MOSE non attivo
-L'8 dicembre 2020 il MOSE non è stato attivato e la marea è stata eccezionale. La situazione era simile a quella del 15 ottobre 2020, con venti di circa 50 km/h che soffiavano da nord/nord-ovest e che spingevano l'acqua verso Chioggia. Senza le paratie, l'acqua è entrata in laguna: a Venezia e Chioggia la marea ha raggiunto il livello osservato nelle bocche di porto. In entrambe le città la marea ha seguito l'andamento delle bocche di porto, pur manifestando un ritardo di un'ora a causa della distanza che separa i due centri storici dagli sbocchi sull'Adriatico più vicini.
+L'8 dicembre 2020 il MOSE non è stato attivato e la marea è stata eccezionale. Il forte vento ha impedito alla marea di defluire fuori dalla laguna e ha causato un minimo mareale di fatto coincidente con il picco precedente. Pertanto, il picco successivo ha avuto una base di partenza eccezionalmente alta e la continua azione del vento ha permesso di accumulare altra acqua in laguna. Senza le paratie del MOSE, a Venezia e Chioggia la marea ha raggiunto il livello osservato nelle bocche di porto. In entrambe le città, la marea ha seguito l'andamento delle bocche di porto, pur manifestando un ritardo di un'ora a causa della distanza che separa i due centri storici dagli sbocchi sull'Adriatico.
 
  ![plot](./archivio/2020-12-08/8dic2020_marea.png) 
 
 # Lo script Python
-Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati di alcune delle stazioni meteorologiche usate dal Centro Maree del Comune di Venezia, raggiungibili al seguente link: [a link](https://www.comune.venezia.it/content/dati-dalle-stazioni-rilevamento)). Di default il programma legge i dati sull'altezza della marea, velocità e direzione del vento dalle seguenti stazioni (tra parentesi è indicato il nome usato nei grafici):
+Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati raccolti nelle 24 ore precedenti da alcune delle [stazioni meteorologiche usate dal Centro Maree del Comune di Venezia](https://www.comune.venezia.it/content/dati-dalle-stazioni-rilevamento)). Di default il programma analizza i dati sull'altezza della marea, velocità e direzione del vento dalle seguenti stazioni (tra parentesi è indicato il nome usato nei grafici):
 - `Punta Salute` (Venezia), come riferimento per la marea in centro storico a Venezia
-- `Chioggia città - Vigo`(Chioggia), come riferimento per la marea in centro storico a Chioggia
-- `Diga Sud Lido e Faro`(San Nicolò), per monitorare la bocca di porto tra Punta Sabbioni e Lido
-- `Diga Nord Malamocco`(Malamocco), per monitorare la bocca di porto tra Lido e Pellestrina
-- `Diga Sud Chioggia`(Pellestrina), per monitorare la bocca di porto tra Pellestrina e Chioggia
+- `Chioggia città - Vigo` (Chioggia), come riferimento per la marea in centro storico a Chioggia
+- `Diga Sud Lido e Faro` (San Nicolò), per monitorare la bocca di porto tra Punta Sabbioni e Lido
+- `Diga Nord Malamocco` (Malamocco), per monitorare la bocca di porto tra Lido e Pellestrina
+- `Diga Sud Chioggia` (Pellestrina), per monitorare la bocca di porto tra Pellestrina e Chioggia
 
-I dati delle stazioni di rilevamento e i relativi grafici per la giornata presa in esame vengono salvati nell'archivio nella cartella con la data corrispondente. Sono disponibili alcuni esempi generati con versioni antecedenti del codice. In particolare, la cartella `2019-11-12` è corredata di analisi aggiuntive applicata alle maree eccezionali verificatisi quella settimana.
+I dati delle stazioni di rilevamento e i relativi grafici per la giornata presa in esame vengono salvati nell'archivio nella cartella con la data corrispondente. Sono disponibili alcuni esempi generati con versioni antecedenti del codice. In particolare, la cartella `2019-11-12` è corredata di analisi aggiuntive viste alle maree eccezionali verificatesi quella settimana.
 
