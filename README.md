@@ -33,7 +33,7 @@ Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati ra
 - `Diga Sud Chioggia` (Pellestrina), per monitorare la bocca di porto tra Pellestrina e Chioggia
 
 ## L'allagamento
-Le [rilevazioni altimetriche](http://smu.insula.it/index.php@option=com_content&view=article&id=114&Itemid=81&lang=it.html) effettuate da Insula dimostrano che l'altezza sul livello del mare del piano di calpestio di Venezia non è costante. In virtù di ciò, una scala di allerta giallo-arancio-rosso indica la gravità dell'impatto dell'alta marea nel centro storico di Venezia sulla base della [percentuale di pavimentazione allagata] (https://www.comune.venezia.it/it/content/le-percentuali-allagamento):
+Le [rilevazioni altimetriche](http://smu.insula.it/index.php@option=com_content&view=article&id=114&Itemid=81&lang=it.html) effettuate da Insula dimostrano che l'altezza sul livello del mare del piano di calpestio di Venezia non è costante. In virtù di ciò, una scala di allerta giallo-arancio-rosso indica la gravità dell'impatto dell'alta marea nel centro storico di Venezia sulla base della [percentuale di pavimentazione allagata](https://www.comune.venezia.it/it/content/le-percentuali-allagamento):
 - `giallo`: marea di 90-110 cm s.l.m., allagamento del 2-12 %. Coinvolge principalmente piazza San Marco (alta 80 cm s.l.m.).
 - `arancio`: marea di 110-140 cm s.l.m., allagamento del 12-59 %. Il MOSE viene solitamente attivato per maree previste > 110 cm s.l.m.
 - `rosso`: marea superiore ai 140 cm s.l.m., allagamento superiore al 59 %. La marea è definita *eccezionale*.
