@@ -30,7 +30,7 @@ Il 22 novembre 2022 l'attivazione del MOSE ha salvato la laguna di Venezia da un
 
  ![plot](./archivio/2022-11-22/venti-2022-11-22.png) 
 
-La sola azione del vento ha accumulato efficientemente per ore l'acqua lungo l'adriatico, spingendola in un secondo momento verso la laguna di Venezia e innalzando il livello mareale di più di 1 m rispetto al valore astronomico. Il picco mareale di 200 cm, toccato nella bocca di porto tra Lido e Pellestrina, si sarebbe normalmente verificato con una discrepanza di circa 15/20 cm con un'ora di ritardo anche Venezia e Chioggia. Tuttavia, l'attivazione preventiva del MOSE ha impedito che la marea si alzasse anche dentro la laguna ed ha evitato un [allagamento del centro storico di Venezia superiore all'88%](https://www.comune.venezia.it/it/content/le-percentuali-allagamento). Alle 17:30 del 21 novembre il MOSE è stato attivato nella sola bocca di porto tra lido e punta sabbioni. Le paratie rimanenti sono state alzate alle 2:15 del 22 novembre e hanno mantenuto in laguna una marea costante di circa 60 cm.
+La sola azione del vento ha accumulato efficientemente per ore l'acqua lungo l'adriatico, spingendola in un secondo momento verso la laguna di Venezia e innalzando il livello mareale di più di 1 m rispetto al valore astronomico. Il picco mareale di 200 cm, toccato nella bocca di porto tra Lido e Pellestrina, si sarebbe normalmente verificato con una discrepanza di circa 15/20 cm con un'ora di ritardo anche Venezia e Chioggia. Tuttavia, l'attivazione preventiva del MOSE ha impedito che la marea si alzasse anche dentro la laguna ed ha evitato un [allagamento del centro storico di Venezia superiore all'88%](https://www.comune.venezia.it/it/content/le-percentuali-allagamento). Alle 17:30 del 21 novembre il MOSE è stato attivato nella sola bocca di porto tra Lido e Punta sabbioni. Le paratie rimanenti sono state alzate alle 2:15 del 22 novembre e hanno mantenuto in laguna una marea costante di circa 60 cm, con un accumulo di acqua maggiore verso Chioggia a causa della bora.
 
  ![plot](./archivio/2022-11-22/2022-11-22.png) 
 
@@ -40,7 +40,7 @@ La sola azione del vento ha accumulato efficientemente per ore l'acqua lungo l'a
 Il Python script **acqua_alta.py** scarica e visualizza in tempo reale i dati raccolti nelle 24 ore precedenti da alcune delle [stazioni meteorologiche usate dal Centro Maree del Comune di Venezia](https://www.comune.venezia.it/content/dati-dalle-stazioni-rilevamento). Di default, il programma analizza i dati sull'altezza della marea dalle seguenti stazioni (tra parentesi è indicato il nome usato nei grafici):
 - `Punta Salute` (Venezia), come riferimento per la marea in centro storico a Venezia
 - `Chioggia città - Vigo` (Chioggia), come riferimento per la marea in centro storico a Chioggia
-- `Diga Sud Lido e Faro` (Punta sabbioni-Lido), per monitorare la bocca di porto tra Punta Sabbioni e Lido
+- `Diga Sud Lido e Faro` (Punta sabbioni-Lido), per monitorare la bocca di porto tra Punta sabbioni e Lido
 - `Diga Nord Malamocco` (Lido-Pellestrina), per monitorare la bocca di porto tra Lido e Pellestrina
 - `Diga Sud Chioggia` (Pellestrina-Chioggia), per monitorare la bocca di porto tra Pellestrina e Chioggia
 
