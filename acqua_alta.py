@@ -68,8 +68,8 @@ df_sannicolo.plot(x='Ora', y='Velocità media vento [km/h]', color='dodgerblue',
 df_pellestrina.plot(x='Ora', y='Velocità media vento [km/h]', color='saddlebrown', lw=lw, label='Pellestrina-Chioggia', ax=axs[0][1], grid=True, title='Velocità media del vento').set(ylabel='Velocità [km/h]')
 df_sannicolo.plot(x='Ora', y='Faro Diga LidoD.Vento med. 10m', color='dodgerblue', lw=lw, label='Punta sabbioni-Lido', ax=axs[1][1])
 df_pellestrina.plot(x='Ora', y='D.S.ChioggiaD.Vento med. 10m', color='saddlebrown', lw=lw, label='Pellestrina-Chioggia', ax=axs[1][1], grid=True, title='Direzione media del vento').set(ylabel='Direzione [gradi]')
-axs[1][1].annotate('Scirocco', (0.39,0.35), xycoords='axes fraction')
-axs[1][1].annotate('Bora', (0.41,0.2), xycoords='axes fraction')
+axs[1][1].annotate('Scirocco', (0.89,0.35), xycoords='axes fraction')
+axs[1][1].annotate('Bora', (0.93,0.2), xycoords='axes fraction')
 
 
 mareamin,mareamax,step = 0,210,10
